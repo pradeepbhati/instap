@@ -1,0 +1,28 @@
+<template name="addUserForm">
+	<div class="content_white box">
+  <h2 style="margin-left: 10px;"> Register your company now</h2>
+    <form method="post" name="registration">
+        <div class="contact-to">
+          <input type="text" class="text" name="companyName" value="Company Name" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Company Name';}" style="margin-left: 10px">
+          <input type="text" class="text" name="email" value="Email" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Email';}" style="margin-left: 10px">
+        <!--   <input type="text" class="text" value="E-Mail address" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'E-Mail address';}" style="margin-left: 10px"> -->
+          <!-- <input type="text" class="text" value="Name" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Name';}"  style="margin-left: 10px">
+          <input type="text" class="text" value="Designation" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Designation';}" style="margin-left: 10px"> -->
+          <input type="text" class="text" name="mobile" value="Phone Number" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Phone Number';}" style="margin-left: 10px">
+          <input type="text" class="text" name="password" value="Password" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Password';}" style="margin-left: 10px">
+          <input type="text" class="text" name="confirmPassword" value="Confirm Password" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Confirm Password';}" style="margin-left: 10px">
+          <input type="submit" class="login_btn" style="margin: 10px;float: left;width: 32.5%;" value="Register">
+          <!-- <a href="#" class="login_btn" style="margin: 10px;float: left;width: 32.5%;">Submit</a> -->
+        </div>
+        <div class="clear hidden registration-sucessful">Thank you for registering with us.</div>
+        <div class="clear hidden registration-failed">Please make the correction.</div>
+        <div>
+          
+        </div>
+
+        <!-- <a href="#" class="login_btn">Submit</a> -->
+        
+      </form>
+
+  </div>
+</template>
